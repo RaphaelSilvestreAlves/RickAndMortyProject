@@ -11,12 +11,11 @@ class CharacterDetailStore {
 
   CharacterDetailStore({required this.repository});
 
-  // Método para carregar os detalhes do personagem
   Future<void> loadCharacterDetail(int id) async {
     try {
       isLoading.value = true;
       final CharacterDetailModel detail = await repository.getCharacterDetail(id);
-      characterDetail.value = detail; // Aqui estamos atribuindo o valor de detail à variável characterDetail
+      characterDetail.value = detail;
     } catch (e) {
       error.value = 'Erro ao carregar os detalhes do personagem: $e';
     } finally {

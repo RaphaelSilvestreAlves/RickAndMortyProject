@@ -1,16 +1,20 @@
 # projeto_rick_and_morty
 
-A new Flutter project.
+This is a simple Flutter app that consumes the Rick and Morty API (https://rickandmortyapi.com/) to display a list of characters from the series, featuring a search functionality and a details screen for each character.
 
-## Getting Started
+Technologies Used
 
-This project is a starting point for a Flutter application.
+Flutter
 
-A few resources to get you started if this is your first Flutter project:
+Dart
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+HTTP (for API requests)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Features
+
+Displays a list of 20 characters from the API.
+
+Allows searching for characters by name.
+
+Clicking on a character opens a details screen showing name, status, species, and gender.
+

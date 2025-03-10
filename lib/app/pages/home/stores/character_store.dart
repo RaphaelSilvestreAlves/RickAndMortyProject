@@ -12,13 +12,12 @@ class CharacterStore {
 
   CharacterStore({required this.repository});
 
-  // Método para carregar os personagens
   Future<void> loadCharacters() async {
     try {
       isLoading.value = true;
       final List<CharacterModel> characterList = await repository.getCharacters();
       characters.value = characterList;
-      isSearchEnabled.value = true; // Habilita a busca após carregar os personagens
+      isSearchEnabled.value = true;
     } catch (e) {
       error.value = 'Erro ao carregar os personagens: $e';
     } finally {
@@ -26,11 +25,10 @@ class CharacterStore {
     }
   }
 
-  // Método para filtrar personagens
   void searchCharacters(String query) {
     if (query.isEmpty) {
       isSearchEnabled.value = true;
-      loadCharacters();  // Recarrega os personagens
+      loadCharacters();
     } else {
       final List<CharacterModel> filteredList = characters.value
           .where((character) => character.name.toLowerCase().contains(query.toLowerCase()))
