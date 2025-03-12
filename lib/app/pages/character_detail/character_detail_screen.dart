@@ -3,7 +3,7 @@ import 'package:projeto_rick_and_morty/app/core/app_colors.dart';
 import 'package:projeto_rick_and_morty/app/models/character_detail_model.dart';
 import 'package:projeto_rick_and_morty/app/pages/character_detail/stores/character_detail_store.dart';
 import 'package:projeto_rick_and_morty/app/repositories/character_detail_repository.dart';
-import 'package:projeto_rick_and_morty/app/data/http/httpClient.dart';
+import 'package:projeto_rick_and_morty/app/data/http/http_client.dart';
 
 class CharacterDetailScreen extends StatefulWidget {
   final int characterId;

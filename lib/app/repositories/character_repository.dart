@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 import 'package:projeto_rick_and_morty/app/data/http/exceptions.dart';
-import 'package:projeto_rick_and_morty/app/data/http/httpClient.dart';
+import 'package:projeto_rick_and_morty/app/data/http/http_client.dart';
 import 'package:projeto_rick_and_morty/app/models/character_model.dart';
 
 abstract class ICharacterRepository {

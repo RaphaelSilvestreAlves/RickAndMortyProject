@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart' hide SearchController;
 import 'package:projeto_rick_and_morty/app/controllers/search_controller.dart';
 import 'package:projeto_rick_and_morty/app/core/app_colors.dart';
-import 'package:projeto_rick_and_morty/app/data/http/httpClient.dart';
+import 'package:projeto_rick_and_morty/app/data/http/http_client.dart';
 import 'package:projeto_rick_and_morty/app/models/character_model.dart';
 import 'package:projeto_rick_and_morty/app/pages/character_detail/character_detail_screen.dart';
 import 'package:projeto_rick_and_morty/app/pages/home/stores/character_store.dart';

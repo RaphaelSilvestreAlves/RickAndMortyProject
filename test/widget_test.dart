@@ -7,7 +7,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:projeto_rick_and_morty/app/pages/appWidget.dart';
+import 'package:projeto_rick_and_morty/app/pages/app_widget.dart';
 
 
 void main() {

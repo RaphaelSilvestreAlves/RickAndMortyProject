@@ -1,5 +1,5 @@
 import 'dart:convert';
-import 'package:projeto_rick_and_morty/app/data/http/httpClient.dart';
+import 'package:projeto_rick_and_morty/app/data/http/http_client.dart';
 import 'package:projeto_rick_and_morty/app/models/character_detail_model.dart';
 
 abstract class ICharacterDetailRepository {
